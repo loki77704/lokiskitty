@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loki's Kitty</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="Photos/Persona Pict.jpg" type="image/x-icon">
+
+    <!-- Link to Google Fonts for Fredoka -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Apply Fredoka font globally */
+        body {
+            font-family: 'Fredoka', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-[#FFD5CD] text-gray-900">
+
+    <!-- Header Section with Navigation -->
+    <header class="bg-[#8675A9] py-4">
+        <nav class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-center">
+                <!-- Logo (or Website Name) -->
+                <div class="text-[#FFD5CD] text-2xl font-bold">
+                    <a href="index.html">Adlih Art</a>
+                </div>
+
+                <!-- Navigation Links -->
+                <ul class="flex space-x-8 text-[#FFD5CD]">
+                    <li><a href="index.html" class="hover:text-blue-400">Welcome</a></li>
+                    <li><a href="illustrations.html" class="hover:text-blue-400">Illustrations</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-400">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="py-20">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center">
+            <!-- Text Section -->
+            <div class="text-center text-[#8675A9] md:text-left md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl font-bold mb-6">Welcome to Loki's Kitty</h1>
+                <p class="text-xl mb-4">Explore my creative world through beautiful illustrations, and feel free to
+                    reach out!</p>
+                <button
+                    class="bg-[#8675A9] text-gray-900 px-6 py-2 rounded-lg shadow-md hover:bg-[#EFBBCF] transition-all duration-300 ease-in-out transform hover:scale-105">
+                    <a href="illustrations.html" class="text-[#FFD5CD] hover:text-[#8675A9]">View Illustrations</a>
+                </button>
+            </div>
+
+            <!-- Image Section -->
+            <div class="md:w-1/2">
+                <img src="Photos/Persona Pict.jpg" alt="Adlih Art"
+                    class="w-full h-auto max-w-md mx-auto rounded-lg shadow-lg">
+            </div>
+        </div>
+    </main>
+
+    <!-- Hidden Audio that Autoplays -->
+    <audio id="backgroundAudio" autoplay>
+        <source src="m8pkooqn.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Footer Section -->
+    <footer class="bg-[#C3AED6] text-white text-center py-4">
+        <p>&copy; 2025 Adlih Art. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
